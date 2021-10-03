@@ -5,11 +5,10 @@
     "build": "parcel build src/index.html"
   },
   "dependencies": {
+    "parcel": "^2.0.0-rc.0",
     "pixi.js": "^6.1.3"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-static-files-copy": "^2.6.0",
     "typescript": "^4.4.3"
   }
 }
