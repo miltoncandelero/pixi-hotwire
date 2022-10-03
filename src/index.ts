@@ -9,7 +9,8 @@ const app = new Application({
 	height: 480
 });
 
-const clampy: Sprite = Sprite.from("clampy.png");
+const clampUrl = new URL('assets/clampy.png', import.meta.url);
+const clampy: Sprite = Sprite.from(clampUrl.href);
 
 clampy.anchor.set(0.5);
 
