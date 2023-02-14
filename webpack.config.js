@@ -20,7 +20,7 @@ module.exports = (env, argv) => {
       compress: true,
       allowedHosts: "all",
       historyApiFallback: true,
-      static: true,
+      static: false,
       client: {
         logging: "warn",
         overlay: {
