@@ -1,6 +1,6 @@
 import { Application, Sprite } from 'pixi.js'
 
-const app = new Application({
+const app = new Application<HTMLCanvasElement>({
 	view: document.getElementById("pixi-canvas") as HTMLCanvasElement,
 	resolution: window.devicePixelRatio || 1,
 	autoDensity: true,
